@@ -1,0 +1,16 @@
+{
+    "name": "drips/markdowncompiler",
+    "description": "MarkdownCompiler zum Übersetzen von Markdown-Dateien in HTML-Dateien mittels PHP",
+    "keywords": ["compiler", "markdown", "md"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "drips/utils": ">=0.1.2",
+        "erusev/parsedown": ">=1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drips\\MarkdownCompiler\\": "src"
+        }
+    }
+}
