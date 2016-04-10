@@ -8,6 +8,7 @@ class MarkdownCompiler implements ICompiler
 {
     public static function compile($string)
     {
-        // TODO: ...
+        $Parsedown = new MarkdownCompiler();
+        return $Parsedown->text($string);
     }
 }
