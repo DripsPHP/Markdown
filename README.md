@@ -12,13 +12,6 @@ Mithilfe des MarkdownCompilers kann Markdown in HTML übersetzt werden. Dies fun
 
 use Drips\Markdown\Compiler;
 
-$markdown_file = "path/to/file.md";
-$html_file = "path/to/file.html";
-
-// Inhalt der Markdown-Datei auslesen
-$markdown = file_get_contents($markdown_file);
 // Markdown mithilfe des Compilers in HTML übersetzen
-$html = Compiler::compile($markdown);
-// HTML-Code in die jeweilige Datei schreiben
-file_put_contents($html_file, $html);
+$html_code = Compiler::compile($markdown_code);
 ```
