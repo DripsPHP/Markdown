@@ -1,11 +1,11 @@
 <?php
 
-namespace Drips\MarkdownCompiler;
+namespace Drips\Markdown;
 
 use Drips\Utils\ICompiler;
 use Parsedown;
 
-class MarkdownCompiler implements ICompiler
+class Compiler implements ICompiler
 {
     private static $compiler;
 

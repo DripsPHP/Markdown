@@ -2,7 +2,7 @@
 
 namespace tests;
 
-use Drips\MarkdownCompiler\MarkdownCompiler;
+use Drips\Markdown\Compiler;
 use PHPUnit_Framework_TestCase;
 
 include __DIR__.'/../vendor/autoload.php';
@@ -14,7 +14,7 @@ class MarkdownCompilerTest extends PHPUnit_Framework_TestCase
     */
    public function testMarkdownCompiler($markdown, $html)
    {
-       $this->assertEquals(MarkdownCompiler::compile($markdown), $html);
+       $this->assertEquals(Compiler::compile($markdown), $html);
    }
    public function dateProvider()
    {
