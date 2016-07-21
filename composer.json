@@ -1,16 +1,20 @@
 {
-    "name": "drips/markdown",
-    "description": "MarkdownCompiler zum Übersetzen von Markdown-Dateien in HTML-Dateien mittels PHP",
-    "keywords": ["compiler", "markdown", "md"],
-    "license": "MIT",
-    "require": {
-        "php": ">=5.4",
-        "drips/utils": "dev-master",
-        "erusev/parsedown": ">=1.6"
-    },
-    "autoload": {
-        "psr-4": {
-            "Drips\\Markdown\\": "src"
-        }
+  "name": "drips/markdown",
+  "description": "MarkdownCompiler zum Übersetzen von Markdown-Dateien in HTML-Dateien mittels PHP",
+  "keywords": [
+    "compiler",
+    "markdown",
+    "md"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4",
+    "drips/utils": "dev-master",
+    "erusev/parsedown": ">=1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drips\\Markdown\\": "src"
     }
+  }
 }
