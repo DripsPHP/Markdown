@@ -1,6 +1,6 @@
 # Markdown
 
-[![Build Status](https://travis-ci.org/Prowect/MarkdownCompiler.svg)](https://travis-ci.org/Prowect/MarkdownCompiler)
+[![Build Status](https://travis-ci.org/Prowect/Markdown.svg)](https://travis-ci.org/Prowect/Markdown)
 [![Code Climate](https://codeclimate.com/github/Prowect/MarkdownCompiler/badges/gpa.svg)](https://codeclimate.com/github/Prowect/MarkdownCompiler)
 [![Test Coverage](https://codeclimate.com/github/Prowect/MarkdownCompiler/badges/coverage.svg)](https://codeclimate.com/github/Prowect/MarkdownCompiler/coverage)
 [![Latest Release](https://img.shields.io/packagist/v/drips/Markdown.svg)](https://packagist.org/packages/drips/markdown)
